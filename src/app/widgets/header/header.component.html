@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-md">
+	<div class="container">
+		<div class="collapse navbar-collapse">
+			<ul class="navbar-nav ml-auto main-menu">
+				<li routerLinkActive="open" *ngFor="let menuItem of menuItems.getMainMenu()">
+					<a class="nav-link" [routerLink]="['/', menuItem.state]" routerLinkActive="active-link" *ngIf="menuItem.type == 'link'" (click)="removeCollapseInClass()">
+						{{ menuItem?.name }}
+					</a>
+					<a *ngIf="menuItem.type == 'sub'" class="nav-link" href="javascript:void(0)">{{ menuItem?.name }}&nbsp;
+						<i class="{{ menuItem?.icon }}"></i>
+					</a>
+					<ul *ngIf="menuItem.type == 'sub' && menuItem?.subMenus" class="sub-menu">
+						<li class="nav-item" routerLinkActive="open" *ngFor="let subMenuItem of menuItem?.subMenus">
+							<a class="nav-link" [routerLink]="['/', subMenuItem.state]" routerLinkActive="active-link" *ngIf="subMenuItem.type == 'link'" (click)="removeCollapseInClass()">
+								{{ subMenuItem?.name }}
+							</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>

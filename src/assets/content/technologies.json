@@ -1,0 +1,169 @@
+{
+    "technologies": [
+        {
+            "name": "Java",
+            "version": "11",
+            "icon": {
+                "name": "logos:java",
+                "color": "text-info"
+            },
+            "heading": "",
+            "description": "Java",
+            "route": "java"
+        },
+        {
+            "name": "Spring Boot",
+            "version": "2.0.4",
+            "icon": {
+                "name": "cib:spring",
+                "color": "text-info"
+            },
+            "heading": "",
+            "description": "Spring",
+            "route": "spring"
+        },
+        {
+            "name": "Kubernetes",
+            "version": "",
+            "icon": {
+                "name": "logos:kubernetes",
+                "color": "text-info"
+            },
+            "heading": "",
+            "description": "Kubernetes",
+            "route": "kubernetes"
+        },
+        {
+            "name": "Docker",
+            "version": "",
+            "icon": {
+                "name": "logos:docker-icon",
+                "color": "text-info"
+            },
+            "heading": "",
+            "description": "Docker",
+            "route": "docker"
+        },
+        {
+            "name": "Quarkus",
+            "version": "",
+            "icon": {
+                "name": "cib:quarkus",
+                "color": "text-info"
+            },
+            "heading": "",
+            "description": "Quarkus",
+            "route": "quarkus"
+        },
+        {
+            "name": "AWS",
+            "version": "",
+            "icon": {
+                "name": "logos:aws",
+                "color": "text-info"
+            },
+            "heading": "",
+            "description": "Amazon Web Services",
+            "route": "aws",
+            "topics": {
+                "name": "",
+                "version": "",
+                "icon": {
+                    "name": "",
+                    "color": ""
+                },
+                "heading": "",
+                "description": "",
+                "route": "s3"
+            }
+        },
+        {
+            "name": "Azure",
+            "version": "",
+            "icon": {
+                "name": "logos:azure-icon",
+                "color": "text-info"
+            },
+            "heading": "",
+            "description": "Azure",
+            "route": "azure",
+            "topics": {
+                "name": "AKS",
+                "version": "",
+                "icon": {
+                    "name": "",
+                    "color": ""
+                },
+                "heading": "",
+                "description": "",
+                "route": "aks"
+            }
+        },
+        {
+            "name": "Angular",
+            "version": "",
+            "icon": {
+                "name": "logos:angular-icon",
+                "color": "text-info"
+            },
+            "heading": "",
+            "description": "Angular",
+            "route": "angular"
+        },
+        {
+            "name": "Kafka",
+            "version": "",
+            "icon": {
+                "name": "logos:kafka-icon",
+                "color": "text-info"
+            },
+            "heading": "",
+            "description": "Kafka",
+            "route": "kafka"
+        },
+        {
+            "name": "Linux",
+            "version": "",
+            "icon": {
+                "name": "flat-color-icons:linux",
+                "color": "text-info"
+            },
+            "heading": "",
+            "description": "Linux",
+            "route": "linux"
+        },
+        {
+            "name": "MongoDB",
+            "version": "",
+            "icon": {
+                "name": "vscode-icons:file-type-mongo",
+                "color": "text-info"
+            },
+            "heading": "",
+            "description": "MongoDB",
+            "route": "mongo"
+        },
+        {
+            "name": "Redis",
+            "version": "",
+            "icon": {
+                "name": "logos:redis",
+                "color": "text-info"
+            },
+            "heading": "",
+            "description": "Redis",
+            "route": "redis"
+        },
+        {
+            "name": "Splunk",
+            "version": "",
+            "icon": {
+                "name": "simple-icons:splunk",
+                "color": "text-info"
+            },
+            "heading": "",
+            "description": "Splunk",
+            "route": "splunk"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+html, body {
+    height: 100%;
+    position: relative;
+}
+body {
+    padding-top: 87px;
+    padding-bottom: 50px;
+}
+.navbar-offset {
+    top: 37px;
+}
+.container-fluid.scrollable {
+    height: 100%;
+    overflow: auto;
+    background: #ccc;
+}
