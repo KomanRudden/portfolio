@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-sm-12 col-md-10 col-xl-4 m-sm-b" *ngFor="let item of content ? content.slice(0,13):[]">
                 <div class="card-line-box text-center p-4">
-                    <a href="#" [routerLink]="['/development/', item.route]">
+                    <a href="#" [routerLink]="[item.section, item.route]">
                         <div class="icon-wrap mb-4 {{item?.icon?.color}}">
                             <span class="iconify icon:{{item?.icon?.name}} icon-inline:false iconify font-4x"></span>
                         </div>
